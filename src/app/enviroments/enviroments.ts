@@ -1,3 +1,3 @@
 export const enviroment = {
-	API_URL = "";
+	API_URL:"https://google.com"
 }
