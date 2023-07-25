@@ -1,1 +1,16 @@
-<p>amount-box works!</p>
+<div class="amount-box-container" shadow-box>
+
+	<div class="amount-title">'
+		<app-money-icon/>
+		<p>Saldo disponível</p>
+	</div>
+
+	<div class="amout-card-middle">
+		<p id="amount-value">
+			{{accountDetails.amountValue}}
+		</p>
+		<div id="divider"></div>
+		<p id="amount-total">Saldo + Limite {{accountDetails.totalAmount}}</p>
+	</div>
+
+</div>
