@@ -6,10 +6,12 @@ import { SvgComponentsModule } from './modules/svg-components.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
+  CardComponent,
 	],
 	imports: [
 		BrowserModule,
